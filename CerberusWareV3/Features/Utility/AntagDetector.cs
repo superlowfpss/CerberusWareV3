@@ -143,7 +143,7 @@ public class AntagDetector : EntitySystem
 		return flag2;
 	}
 	
-	private readonly SharedContainerSystem _containerSystem = null;
+	[Robust.Shared.IoC.Dependency] private readonly SharedContainerSystem _containerSystem = null;
 	
-	private readonly ComponentUtils _componentUtils = null;
+	[Robust.Shared.IoC.Dependency] private readonly ComponentUtils _componentUtils = null;
 }

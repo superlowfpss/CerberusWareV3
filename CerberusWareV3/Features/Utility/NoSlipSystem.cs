@@ -141,21 +141,21 @@ public sealed class NoSlipSystem : EntitySystem
 		return flag2;
 	}
 	
-	private readonly IEyeManager _eyeManager = null;
+	[Robust.Shared.IoC.Dependency] private readonly IEyeManager _eyeManager = null;
 	
-	private readonly IGameTiming _timing = null;
+	[Robust.Shared.IoC.Dependency] private readonly IGameTiming _timing = null;
 	
-	private readonly IInputManager _inputManager = null;
+	[Robust.Shared.IoC.Dependency] private readonly IInputManager _inputManager = null;
 	
 	[Robust.Shared.IoC.Dependency] private readonly IPlayerManager _playerManager = null;
 	
-	private readonly InputSystem _inputSystem = null;
+	[Robust.Shared.IoC.Dependency] private readonly InputSystem _inputSystem = null;
 	
 	[Robust.Shared.IoC.Dependency] private readonly EntityLookupSystem _entityLookup = null;
 	
 	[Robust.Shared.IoC.Dependency] private readonly ContainerSystem _containerSystem = null;
 	
-	private readonly SharedTransformSystem _transformSystem = null;
+	[Robust.Shared.IoC.Dependency] private readonly SharedTransformSystem _transformSystem = null;
 	private bool _wasPressingWalk;
 	private bool _lastWalkState;
 }

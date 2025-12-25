@@ -97,7 +97,7 @@ public class ComponentUtils : EntitySystem
 		return flag2;
 	}
 	
-	private readonly IEntityManager _entityManager = null;
+	[Robust.Shared.IoC.Dependency] private readonly IEntityManager _entityManager = null;
 	
 	[Robust.Shared.IoC.Dependency] private readonly IPlayerManager _playerManager = null;
 }

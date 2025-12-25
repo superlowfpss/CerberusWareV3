@@ -332,9 +332,9 @@ public sealed class ContrabandDetector : EntitySystem
 	
 	[Robust.Shared.IoC.Dependency] private readonly SharedContainerSystem _containerSystem = null;
 	
-	private readonly ExamineSystemShared _examineSystem = null;
+	[Robust.Shared.IoC.Dependency] private readonly ExamineSystemShared _examineSystem = null;
 	
-	private readonly SharedIdCardSystem _idCardSystem = null;
+	[Robust.Shared.IoC.Dependency] private readonly SharedIdCardSystem _idCardSystem = null;
 	private readonly ComponentManager _compManager = new ComponentManager();
 	private readonly Dictionary<string, string> _contrabandTextMap = new Dictionary<string, string>
 	{

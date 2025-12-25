@@ -116,7 +116,7 @@ public class TextureOverlay : Overlay
 		}
 	}
 	
-	private readonly IEntityManager _entityManager = null;
+	[Robust.Shared.IoC.Dependency] private readonly IEntityManager _entityManager = null;
 	
 	private readonly IEyeManager _eyeManager = null;
 	
