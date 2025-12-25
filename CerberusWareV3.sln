@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CerberusWareV3", "CerberusWareV3\CerberusWareV3.csproj", "{D4FEAE43-7961-4ECD-9568-117648FCADD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4FEAE43-7961-4ECD-9568-117648FCADD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FEAE43-7961-4ECD-9568-117648FCADD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FEAE43-7961-4ECD-9568-117648FCADD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FEAE43-7961-4ECD-9568-117648FCADD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

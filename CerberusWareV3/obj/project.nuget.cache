@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yHmVDr1WxqA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DobriyKaban\\RiderProjects\\CerberusWareV3\\CerberusWareV3\\CerberusWareV3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\sixlabors.imagesharp\\3.1.12\\sixlabors.imagesharp.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

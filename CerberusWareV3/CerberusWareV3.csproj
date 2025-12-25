@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Resources\0.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Resources\1.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Resources\2.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Resources\3.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Resources\4.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Resources\5.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Resources\cimgui.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Resources\ImGuiImpl.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="0.png" />
+      <None Remove="1.png" />
+      <None Remove="2.png" />
+      <None Remove="3.png" />
+      <None Remove="4.png" />
+      <None Remove="5.png" />
+      <None Remove="cimgui.dll" />
+      <None Remove="Font.ttf" />
+      <None Remove="ImGuiImpl.dll" />
+      <None Remove="Resources\Font\Font.ttf" />
+      <EmbeddedResource Include="Resources\Font\Font.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>Resources\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Client">
+        <HintPath>Resources\Content.Client.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Shared">
+        <HintPath>Resources\Content.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Shared.Database">
+        <HintPath>Resources\Content.Shared.Database.dll</HintPath>
+      </Reference>
+      <Reference Include="DiscordRPC">
+        <HintPath>Resources\DiscordRPC.dll</HintPath>
+      </Reference>
+      <Reference Include="Hexa.NET.ImGui">
+        <HintPath>Resources\Hexa.NET.ImGui.dll</HintPath>
+      </Reference>
+      <Reference Include="Hexa.NET.ImGui.Backends">
+        <HintPath>Resources\Hexa.NET.ImGui.Backends.dll</HintPath>
+      </Reference>
+      <Reference Include="HexaGen.Runtime">
+        <HintPath>Resources\HexaGen.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="ImGui.NET">
+        <HintPath>Resources\ImGui.NET.dll</HintPath>
+      </Reference>
+      <Reference Include="MinHook.NET">
+        <HintPath>Resources\MinHook.NET.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenTK.Audio.OpenAL">
+        <HintPath>Resources\OpenTK.Audio.OpenAL.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenTK.Mathematics">
+        <HintPath>Resources\OpenTK.Mathematics.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.Core">
+        <HintPath>Resources\OpenToolkit.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.Graphics">
+        <HintPath>Resources\OpenToolkit.Graphics.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.GraphicsLibraryFramework">
+        <HintPath>Resources\OpenToolkit.GraphicsLibraryFramework.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.Mathematics">
+        <HintPath>Resources\OpenToolkit.Mathematics.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Client">
+        <HintPath>Resources\Robust.Client.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.LoaderApi">
+        <HintPath>Resources\Robust.LoaderApi.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.NetSerializer">
+        <HintPath>Resources\Robust.NetSerializer.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Shared">
+        <HintPath>Resources\Robust.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Shared.Maths">
+        <HintPath>Resources\Robust.Shared.Maths.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.Lidgren.Network">
+        <HintPath>Resources\SpaceWizards.Lidgren.Network.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.NFluidsynth">
+        <HintPath>Resources\SpaceWizards.NFluidsynth.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.Sdl">
+        <HintPath>Resources\SpaceWizards.Sdl.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.SharpFont">
+        <HintPath>Resources\SpaceWizards.SharpFont.dll</HintPath>
+      </Reference>
+      <Reference Include="TerraFX.Interop.Windows">
+        <HintPath>Resources\TerraFX.Interop.Windows.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
